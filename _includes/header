@@ -12,13 +12,18 @@
     <title>{{page.title}}{% if page.layout == "recipe" %} — Les recettes de JBH{% endif %}</title>
   </head>
 
-  <body>
+  <body class="{{page.layout}}">
     <div id="container">
       <div class="inner">
 
         <header>
-          <h1>Recettes</h1>
-          <h2>Quelques recettes rapides car quand on a faim... on a faim ! <em>;)</em></h2>
+{% if page.layout == "recipe" %}
+            <a href="{{site.production_url}}">Recettes</a>
+            <small>Quelques recettes rapides car quand on a faim... on a faim ! <em>;)</em></small>
+{% else %}
+            <h1>Recettes</h1>
+            <h2>Quelques recettes rapides car quand on a faim... on a faim ! <em>;)</em></h2>
+{% endif %}
         </header>
 
         {% if page.layout == "recipe" %}
