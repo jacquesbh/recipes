@@ -18,7 +18,7 @@
 
         <header>
           <h1>Recettes</h1>
-          <h2>Quelques recettes, car parfois... je cuisine ! <em>;)</em></h2>
+          <h2>Quelques recettes rapides car quand on a faim... on a faim ! <em>;)</em></h2>
         </header>
 
         {% if page.layout == "recipe" %}

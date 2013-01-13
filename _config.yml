@@ -11,4 +11,4 @@ title: "Les recettes de JBH !"
 production_url: http://jacques.sh/recipes
 exclude: ["README.md"]
 include: [".htaccess"]
-permalink: /:title/
+permalink: pretty
