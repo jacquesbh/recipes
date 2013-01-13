@@ -313,7 +313,8 @@ ul li {
 
 ol li {
   list-style: decimal inside;
-  padding-left: 3px;
+  padding-left: 20px;
+  padding-bottom: 5px;
 }
 
 dl dt {
