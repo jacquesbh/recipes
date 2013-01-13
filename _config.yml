@@ -8,7 +8,7 @@ lang: fr
 source: ./
 destination: ./_site/
 title: "Les recettes de JBH !"
-production_url: http://recipes.jacques.sh
+production_url: http://jacques.sh/recipes
 exclude: ["README.md"]
 include: [".htaccess"]
 permalink: /:title/

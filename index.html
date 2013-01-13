@@ -1,5 +1,5 @@
 ---
-title: "Home"
+title: "Les recettes de JBH !"
 layout: default
 published: 
 date: 
@@ -8,6 +8,6 @@ comments: true
 
 <ul>
 {% for post in site.posts %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{post.date | date_to_long_string}})</small></li>
+    <li><a href="{{ post.url }}">{{ post.title }}</a> <small>({{post.date | date: "%d/%m/%Y"}})</small></li>
 {% endfor %}
 </ul>
