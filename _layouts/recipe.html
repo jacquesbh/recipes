@@ -4,7 +4,7 @@
 
 <h1>{{page.title}}</h1>
 
-<time>Le {{page.date | date: "%d/%m/%Y"}},</time>
+<time datetime="{{page.date | date: "%d/%m/%Y"}}" pubdate="{{page.date | date: "%d/%m/%Y"}}">Le {{page.date | date: "%d/%m/%Y"}},</time>
 
 <ul id="print-information">
     <li>Auteur : Jacques Bodin-Hullin</li>
