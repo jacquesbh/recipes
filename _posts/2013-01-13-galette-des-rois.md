@@ -3,6 +3,10 @@ title: "La galette des rois, en mode quickwin"
 layout: recipe
 ---
 
+*   Préparation : __15mn__
+*   Cuisson : __30 à 45mn__
+*   Pour __2 à 8 personnes__
+
 ## Ingrédients
 
 Pour une galette de la taille d'une pâte feuilletée qu'on trouve dans le commerce, soit environ 6 à 8 personnes. Mais bon... deux gros mangeurs ça le fait aussi !
