@@ -54,25 +54,13 @@ a {
 }
 
 header {
-  padding-top: 35px;
-  padding-bottom: 10px;
+    display: none;
 }
 
-header h1 {
-  font-weight: bold;
-  letter-spacing: -1px;
-  font-size: 48px;
-  color: #303030;
-  line-height: 1.2;
+#header-links {
+    display: none;
 }
 
-header h2 {
-  letter-spacing: -1px;
-  font-size: 24px;
-  color: #aaa;
-  font-weight: normal;
-  line-height: 1.3;
-}
 #downloads {
   display: none;
 }
@@ -201,15 +189,7 @@ dl dd {
 }
 
 footer {
-  margin-top: 40px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-  font-size: 13px;
-  color: #aaa;
-}
-
-footer a {
-  color: #666;
+    display: none;
 }
 
 /* MISC */
@@ -224,3 +204,6 @@ footer a {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+.no-print { display: none; }
+

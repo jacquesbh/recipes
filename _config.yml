@@ -1,0 +1,14 @@
+safe: true
+destination: _site
+lsi: false
+pygments: true
+auto: true
+markdown: rdiscount
+lang: fr
+source: ./
+destination: ./_site/
+title: "Les recettes de JBH !"
+production_url: http://recipes.jacques.sh
+exclude: ["README.md"]
+include: [".htaccess"]
+permalink: /:title/

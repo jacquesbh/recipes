@@ -1,0 +1,12 @@
+{% include header %}
+
+<h3>{{page.title}}</h3>
+
+<ul id="print-information">
+    <li>Auteur : Jacques Bodin-Hullin</li>
+    <li>Lien : {{site.production_url}}{{page.url}}</li>
+</ul>
+
+{{ content }}
+
+{% include footer %}

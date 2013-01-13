@@ -152,6 +152,12 @@ a.button span {
   height: 23px;
 }
 
+#go-back {
+    width: 215px;
+}
+#go-back span {
+  background: transparent url(../images/arrow_left.png) 12px 50% no-repeat;
+}
 #download-zip span {
   background: transparent url(../images/zip-icon.png) 12px 50% no-repeat;
 }
@@ -336,6 +342,8 @@ footer a:hover {
 .clearfix {display: inline-block;}
 * html .clearfix {height: 1%;}
 .clearfix {display: block;}
+
+#print-information { display: none; }
 
 /* #Media Queries
 ================================================== */
