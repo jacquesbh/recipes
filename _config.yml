@@ -12,3 +12,6 @@ production_url: http://jacques.sh/recipes
 exclude: ["README.md"]
 include: [".htaccess"]
 permalink: pretty
+
+disqus:
+    username: lesrecettesdejbh
