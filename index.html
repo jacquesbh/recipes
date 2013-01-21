@@ -8,6 +8,6 @@ comments: true
 
 <ul>
 {% for post in site.posts %}
-<li><a href="{{site.production_url}}{{ post.url }}">{{ post.title }}</a> <small>({{post.date | date: "%d/%m/%Y"}})</small></li>
+<li><a href="{{site.production_url}}{{ post.url }}" alt="{{ post.alt }}">{{ post.title }}</a> <small>({{post.date | date: "%d/%m/%Y"}})</small></li>
 {% endfor %}
 </ul>

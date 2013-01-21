@@ -1,5 +1,6 @@
 ---
 title: "La galette des rois, en mode quickwin"
+alt: "Hum c'est bon :)"
 layout: recipe
 ---
 

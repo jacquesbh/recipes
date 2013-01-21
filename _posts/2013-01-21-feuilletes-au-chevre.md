@@ -1,5 +1,6 @@
 ---
 title: "Feuilletés au chèvre.. et ce que vous voulez !"
+alt: "En 5 minutes !"
 layout: recipe
 ---
 
