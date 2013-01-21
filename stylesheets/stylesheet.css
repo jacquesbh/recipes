@@ -249,6 +249,12 @@ form {
   
 }
 
+ul.slider li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 
 /* GENERAL ELEMENT TYPE STYLES */
 
