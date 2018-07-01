@@ -26,7 +26,7 @@ On peut mathématiquement en déduire les ingrédients de notre recette pour 4 c
 
 *   1 œuf
 *   80g de farine
-*   170cL de lait
+*   170mL de lait
 
 ### Astuces
 
